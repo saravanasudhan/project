@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(love.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.head{
+    padding:5vh;
+    text-align: center;
+    color: rgb(224, 213, 214);
+   font-size:20px;
+   letter-spacing:2px;
+   font-weight:20px;
+}
+span{
+    color: rgb(235, 146, 146);
+}
+.inp{
+   text-align: center;
+    margin-top: 15vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.inp input{
+padding:5px;
+border-radius: 25%;
+background-color: rgba(252, 7, 27, 0.253);
+text-align: center;
+border: 3px solid brown;
+ color: rgb(24, 2, 1);
+}
+
+#heart{
+    font-size: 100px;
+    color: rgb(224, 17, 52);
+    
+}
+#ans{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:90px;
+    color: aliceblue;
+
+}
+
+.dis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#cal,#reset{
+    padding:5px;
+    margin:4vw ;
+    border: 3px solid brown;
+}
+#cal{
+    border-radius: 10px 0 10px 0 ;
+}
+#reset{
+    border-radius: 0 10px  0 10px  ;
+}
+#cal:hover, #reset:hover{
+    background-color: rgba(173, 125, 125, 0.404);
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.336);
+    color: aliceblue;
+    display: inline-block;
+}
+@media (max-width:500px) {
+.head {
+    position: relative;
+    padding: 2vh;
+    top: 10px;
+    font-size: 16px;}
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.inp {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp input {
+    font-size: 14px;
+}
+
+#heart {
+    font-size: 60px;
+}
+
+#ans {
+    position: relative;
+    right:0px;
+    bottom: 90px;
+    font-size: 13px;
+}
+
+#cal, #reset {
+    font-size: 14px;
+    margin: 2vw;
+}
+.container{
+    position: relative;
+    top: 15vh;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.336);
+    color: aliceblue;
+    display: inline-block;
+}
+}
+
