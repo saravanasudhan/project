@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display" oninput="validateInput(this)">
+        <br>
+        <button onclick="app(1)">1</button>
+        <button onclick="app(2)">2</button>
+        <button onclick="app(3)">3</button>
+        <button class="operator" id="clear" onclick="clea()">C</button>
+        <br>
+        <button onclick="app(4)">4</button>
+        <button onclick="app(5)">5</button>
+        <button onclick="app(6)">6</button>
+        <button class="operator" onclick="app('-')">-</button>
+        <br>
+        <button onclick="app(7)">7</button>
+        <button onclick="app(8)">8</button>
+        <button onclick="app(9)">9</button>
+        <button class="operator" onclick="app('+')">+</button>
+        <br>
+        <button onclick="app(0)">0</button>
+        <button class="operator" onclick="app('*')">&times;</button>
+        <button class="operator" onclick="app('/')">/</button>
+        <button class="equals" onclick="calc()">=</button>
+    </div>
+    <footer>&copy;sudhan</footer>
+   <script src="script.js"></script> 
+</body>
+</html>
